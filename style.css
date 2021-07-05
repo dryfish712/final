@@ -1,0 +1,352 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+font-family: 'Tourney', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+font-family: 'Play', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+font-family: 'Indie Flower', cursive;
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-family: 'Tourney', cursive;
+}
+a, h4{
+	font-family: 'Indie Flower', cursive;}
+p{font-family: 'Play', sans-serif;}
+.wrapper{
+	width: 1200px;
+	height: 1590px;
+	margin: 0 auto;
+}
+.container{
+	width: 100%;
+	height:150px;
+	background: #F3F0DA;
+}
+.container1{
+	width: 100%;
+	height: 100px;
+	background:#FFFFFF;
+}
+.cat1{
+	width:150px;
+	height: 100px;
+    background: url("image/Layer 0.jpg") ;
+	background-size: cover;
+	float: left;
+	margin-left: 280px;
+	box-sizing: border-box;
+}
+.cat2{
+	width:150px;
+	height: 100px;
+	float: right;
+	background: url("image/Layer 0.jpg");
+	background-size: cover;
+	margin-right: 300px;
+}
+.logo{
+	width: 150px;
+	height: 100px;
+	margin-left: 524px;
+}
+.logo h1{
+	margin-left: 10px;
+	line-height: 100px;
+}
+.logo h1 a{
+	text-decoration: none;
+	font-family: 'Tourney', cursive;
+	color: black;
+	}
+.logo h1 a:hover{
+	opacity: 50%;
+	color: turquoise;
+}
+.menu ul {
+	list-style: none;
+}
+.menu ul li{
+	display: inline-block;
+	margin: 0 85px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: saddlebrown
+}
+.menu a:hover{
+	color: white;
+}
+.container2{
+	width: 100%;
+	height: 400px;
+	background: #FFFFFF;
+}
+.text-box{
+	width: 100%;
+	height: 50px;
+	background: #F8FF64;
+	margin-top: 50px;
+}
+.text-box h4{
+	line-height: 50px;
+	color: #7DAD7C;
+border: 2px dashed #000000;
+	text-align: center;
+	width: 350px;
+	margin-left:400px;
+}
+.box{
+	width: 100%;
+	height: 300px;
+	margin-top: 10px;
+	
+}
+.cat01{
+	width: 20%;
+	height: 300px;
+	background: url("image/pexels-evg-culture-1170986.jpg");
+	background-size: cover;
+	float:left
+}
+.cat02{
+	width: 20%;
+	height: 300px;
+	background: url("image/pexels-наталья-семенкова-991831.jpg");
+	background-size: cover;
+	float: left;
+	margin-left: 240px;
+	
+}
+.cat03{
+	width: 20%;
+	height: 300px;
+	background:url("image/pexels-tranmautritam-954720.jpg");
+	background-size: cover;
+	float: right
+}
+.box1{
+	width: 100%;
+	height: 0px;
+	background: #F8787A;
+}
+.sell1{
+	width: 20%;
+	height: 40px;
+	background:#FFFFFF;
+	float:left
+}
+.sell1 a{
+	text-decoration: none;
+	background:#A3E088;
+	line-height: 40px;
+    border: 2px solid #08054B;
+	margin-left: 70px;
+}
+.sell1 a:hover{
+	color: yellow;
+}
+.sell2{
+	width: 20%;
+	height: 40px;
+	background:#FFFFFF;
+	float: left;
+	margin-left: 240px;
+	
+}
+.sell2 a{
+	text-decoration: none;
+	background:#A3E088;
+	line-height: 40px;
+    border: 2px solid #08054B;
+	margin-left: 70px;
+}
+.sell2 a:hover{
+	color: yellow;
+}
+.sell3{
+	width: 20%;
+	height:40px;
+	background:#FFFFFF;
+	float: right
+}
+.sell3 a{
+	text-decoration: none;
+	background:#A3E088;
+	line-height: 40px;
+    border: 2px solid #08054B;
+	margin-left: 70px;
+}
+.sell3 a:hover{
+	color: yellow;
+}
+.box2{
+	width: 100%;
+	height: 300px;
+	background:#F8C6FC;
+}
+.text-box1{
+	width: 50%;
+	height: 300px;
+	background: linear-gradient(to top left, #ffcccc 9%, #ff99cc 100%);
+	border: 3px ridge #000000;
+	float: left;
+	box-sizing: border-box;
+}
+.text-box1 h4{
+	font-size: 70px;
+	float:left;
+	line-height: 150px;
+	margin-left: 50px;
+	border: 3px ridge #FFFFFF;
+}
+.video{
+	width: 50%;
+	height: 300px;
+	background: linear-gradient(to top left, #ffcccc 9%, #ff99cc 100%);
+	border: 3px ridge #000000;
+	float:right;
+	box-sizing: border-box;
+	}
+clear{
+	clear: both;
+}
+.box3{
+	width: 100%;
+	height: 450px;
+}
+.picture{
+	width: 30%;
+	height: 400px;
+	background: url("image/pexels-vlad-bagacian-1634838.jpg");
+	background-size: cover;
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	border-radius: 50px;
+}
+.connect{
+	width: 28%;
+	height: 40px;
+	background: #F7D8D9;
+	float: left;
+	margin-top: 250px;
+}
+.connect p{
+     font-style: italic;
+	text-align: center;
+}
+.infor{
+	width: 25%;
+	height: 300px;
+	background: #F7D8D9;
+	float: left;
+	margin-left: 0px;
+	margin-top: 100px;
+}
+.avatarname{
+	height: 80px;
+	border: 2px solid #000000;
+}
+.avatar{
+	width: 80px;
+	height: 80px;
+	background: url("image/pexels-elle-hughes-1680172.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	float: left;
+}
+.name{
+	width: 190px;
+	height: 80px;
+	float: right;
+}
+.name p{
+	font-size: 10px;
+}
+.comment{
+	width: 100%;
+	height: 220px;
+	background-color: antiquewhite;
+}
+.comment p{
+    padding: 44px;
+	border: 2px dotted ;
+}
+.box4{
+	width: 100%;
+	height: 200px;
+	background: url("image/5503.jpg");
+	background-size: cover;
+	margin-top: 40px;
+}
+.donate{
+	width: 400px;;
+	height: 200px;
+	background: #EC9496;
+	margin: 0 auto;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.box4 h2{
+	text-align: center;
+	color: white;
+}
+.box4 h3{
+	text-align: center;
+	color: white;
+}
+.box4 h2 a{
+	text-decoration: none;
+	border: 2px outset #969696;
+	background: #FFFFFF;
+	color: sandybrown;
+}
+.box4 h2 a:hover{
+	color: darkred;
+}
+.box5{
+	width: 100%;
+	height: 140px;
+background-image: linear-gradient(to top right, rgb(245, 238, 37), rgb(246, 240, 54), rgb(247, 243, 71), rgb(248, 245, 89), rgb(249, 248, 106), rgb(250, 250, 123), rgb(247, 247, 139), rgb(244, 244, 155), rgb(241, 241, 172), rgb(238, 237, 188), rgb(235, 234, 204), rgb(232, 231, 220));
+}
+.findus{
+	width: 100%;
+	height: 120px;
+}
+.coppyright p{
+	text-align: center;
+	line-height: 40px;
+}
+.contact{
+	width: 100%;
+	height: 80px;
+}
+.contact p{
+	text-align: center;
+	font-size: 15px;
+}
+.facebook {
+	width:2%;
+	height: 20px;
+	margin-left: 600px;
+	float: left;
+}
+.facebook img:hover{
+	color: aqua
+}
+.instagram{
+	float: right;
+	margin-right: 600px;
+}
+
+
+
+
+
+
+
+	
+
